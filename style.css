@@ -179,12 +179,12 @@ p {
 
 /* Dark Mode Toggle */
 .theme-switch-wrapper {
+	z-index: 777;
 	display: flex;
-	align-items: center;
-	z-index: 100;
-	position: fixed;
-	right: 25px;
-	top: 30px
+	align-items: center
+	/* position: fixed; */
+	/* right: 25px;
+	top: 30px */
 }
 
 .theme-switch-wrapper span {

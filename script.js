@@ -1,6 +1,7 @@
 const toggleSwitch = document.querySelector('input[type="checkbox"]');
 const toggleIcon = document.getElementById('toggle-icon');
 const nav = document.getElementById('nav');
+const header = document.getElementById('header');
 const image1 = document.getElementById('image1');
 const image2 = document.getElementById('image2');
 const image3 = document.getElementById('image3');
@@ -18,6 +19,7 @@ function toggleMode(isDark) {
 	toggleIcon.children[0].textContent = isDark ? 'Dark Mode' : 'Light Mode';
 	isDark ? toggleIcon.children[1].classList.replace('fa-sun', 'fa-moon') : toggleIcon.children[1].classList.replace('fa-moon', 'fa-sun');
 	isDark ? imageMode('dark') : imageMode('light');
+	header.textContent = isDark ? 'Dark' : 'Light';
 };
 
 function switchTheme(event) {
