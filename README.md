@@ -1,7 +1,7 @@
 # Light Dark Mode
 
 * Example website with a theme toggle to switch between light and dark mode.
-* Theme data saved in local storage and loaded when the user revisits.
+* Theme data is saved in local storage and loaded when the user revisits.
 
 ## Stack
 
